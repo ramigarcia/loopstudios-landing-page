@@ -18,3 +18,10 @@
 body {
   font-size: 15px;
 }
+
+.header {
+  background-image: url('../images/mobile/image-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
