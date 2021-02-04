@@ -19,9 +19,61 @@ body {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   background-image: url('../images/mobile/image-hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
+}
+
+.header__container-top {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* Logo */
+
+.logo {
+  position: relative;
+  z-index: 101;
+  margin-left: 20px;
+}
+
+/* Nav */
+
+.navegation {
+  border: 1px solid red;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  transform: translate(0);
+}
+
+.navegation__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #09f;
+}
+
+.navegation__list-item {
+  margin: 15px;
+}
+
+.navegation__list-item-element {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: var(--josefinSans);
+  color: var(--white);
 }
