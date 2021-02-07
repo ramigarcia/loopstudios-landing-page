@@ -136,7 +136,7 @@ a {
   text-align: center;
 }
 
-.leader figure {
+figure {
   margin: 0;
   padding: 0;
 }
@@ -294,5 +294,43 @@ a {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--black);
+  height: 500px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 85%;
+}
+
+.facebook, .twitter, .pinterest, .instagram {
+  color: var(--white);
+  font-size: 40px;
+}
+
+.footer__nav {
+  text-align: center;
+}
+
+.footer__nav-list-item {
+  margin: 20px auto;
+}
+
+.footer__nav-list-item a {
+  color: var(--white);
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.footer__copy {
+  color: var(--darkGray);
+  font-weight: 400;
+  font-family: var(--alata);
 }
