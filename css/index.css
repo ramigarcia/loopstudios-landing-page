@@ -292,3 +292,7 @@ a {
   color: var(--white);
   transition: all .2s ease-in;
 }
+
+.footer {
+  background: var(--black);
+}
